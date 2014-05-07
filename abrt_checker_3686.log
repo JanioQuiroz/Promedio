@@ -1,0 +1,9 @@
+Uncaught java.util.IllegalFormatConversionException exception in thread "main" in a method java.io.PrintStream.format() with signature (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.Character
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4045) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/util/Formatter$FormatSpecifier.class]
+	at java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2748) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/util/Formatter$FormatSpecifier.class]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2702) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/util/Formatter$FormatSpecifier.class]
+	at java.util.Formatter.format(Formatter.java:2488) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/util/Formatter.class]
+	at java.io.PrintStream.format(PrintStream.java:970) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/io/PrintStream.class]
+	at java.io.PrintStream.printf(PrintStream.java:871) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.4.1.fc20.x86_64/jre/lib/rt.jar!/java/io/PrintStream.class]
+	at programing.programing.main(programing.java:9) [file:/home/alumno/Fasoft/programing/bin/programing/programing.class]
